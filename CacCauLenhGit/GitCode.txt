@@ -12,3 +12,6 @@ sau mỗi lần cập nhật phải có commit -m 'messege'
 nếu muốn lấy từ 1 repository khác -> git clone để tránh nhúng(merge commit)
 câu lệnh : git clone https:\\ path....
            cd folder (git clone)
+✅ Dùng git remote set-url khi bạn muốn thay đổi URL remote.
+✅ Dùng SSH khi bạn làm việc thường xuyên và muốn push/pull mà không nhập mật khẩu.
+✅ Dùng git remote add origin khi repo chưa có remote nào.
