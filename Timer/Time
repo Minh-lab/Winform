@@ -1,0 +1,17 @@
+1.Tác dụng: Dùng để thực hiện 1 công việc lặp đi lặp lại theo chu kỳ
+vd: 1 phút mở lại file 1 lần, 5 phút gửi mail 1 lần
+timer là 1 control
+toolbox: Timer
+Event tick: ta sẽ đưa code vào nhằm thực hiện 1 công việc nào đó
+
+2.Properties
+    Enabled = true: tự động kích hoạt timer khi chạy chương trình
+    Interval: khoảng thời gian mỗi lần thực hiện sự kiện tick tính bằng ms(1/1000s)vs, 500 -> 0,5s
+
+    lấy thời gian hiện tại -> DateTime.Now
+
+3. Enabled Timer bằng coding
+    timer.Enabled = true
+    timer.Enabled = false
+
+4. Start, Stop timer

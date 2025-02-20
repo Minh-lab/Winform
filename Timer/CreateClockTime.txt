@@ -1,0 +1,4 @@
+
+control: label, timer
+ý tưởng: dùng event tick để cho mỗi giây cập nhật lại text label 1 lần
+dùng hàm DateTime.Now.ToString("hh:mm:ss") hh: hiển thị giờ 2 chữ số, mm: hiển thị phút 2 chữ số, ss: hiển thị giây 2 chữ số
