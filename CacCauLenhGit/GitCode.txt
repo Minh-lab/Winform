@@ -13,5 +13,12 @@ nếu muốn lấy từ 1 repository khác -> git clone để tránh nhúng(merg
 câu lệnh : git clone https:\\ path....
            cd folder (git clone)
 ✅ Dùng git remote set-url khi bạn muốn thay đổi URL remote.
+git remote set-url origin git@github.com:username/repository.git(SSH)
+
 ✅ Dùng SSH khi bạn làm việc thường xuyên và muốn push/pull mà không nhập mật khẩu.
+
+
 ✅ Dùng git remote add origin khi repo chưa có remote nào.
+git remote add origin https://github.com/username/repository.git  # Dùng HTTPS
+git remote add origin git@github.com:username/repository.git      # Dùng SSH
+
