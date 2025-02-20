@@ -1,0 +1,6 @@
+1.Delete, remove file, folder in git(code)
+To remove this directory from Git, but not delete it entirely from the filesystem (local):
+
+git rm -r --cached myFolder
+
+sau mỗi lần cập nhật phải có commit -m 'messege'
