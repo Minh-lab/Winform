@@ -2,5 +2,13 @@
 To remove this directory from Git, but not delete it entirely from the filesystem (local):
 
 git rm -r --cached myFolder
+-r là viết tắt của recursive (đệ quy, Dùng để xóa thư mục và tất cả file bên trong nó.) 
+nếu thư mục rỗng git sẽ tự động xóa luôn
+-- cached xóa khỏi git vẫn giữ trên máy
+
 
 sau mỗi lần cập nhật phải có commit -m 'messege'
+
+nếu muốn lấy từ 1 repository khác -> git clone để tránh nhúng(merge commit)
+câu lệnh : git clone https:\\ path....
+           cd folder (git clone)
