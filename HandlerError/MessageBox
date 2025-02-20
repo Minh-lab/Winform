@@ -1,0 +1,3 @@
+tạo sự kiện trong button -> xử lí error
+nó sẽ tạo 1 winform mini với message
+MessageBox.Show()

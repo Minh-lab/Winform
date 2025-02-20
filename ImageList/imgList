@@ -1,0 +1,11 @@
+1. toolBox : ImageList
+thêm ảnh: property -> images(ấn icon lên xuống để chỉnh thứ tự hình ảnh)
+có thể tùy chỉnh kích thước hình ảnh qua thuộc tính size của ImageList
+
+2. gán imageList -> control
+ cách 1: gán qua property - vào property của control muốn thêm vào -> ImageList -> Image Key
+ căn hình ảnh -> imageAlign
+ cách 2: gán bằng code
+    trỏ control vào đối tượng imageList
+    control.ImageIndex = indexOfImageList(0, 1 ,2, 3 ...)
+

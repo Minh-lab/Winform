@@ -1,4 +1,4 @@
-1. Nhấn vào C# goc phải màn hình có màu xanh lá cây -> add -> Form
+1. Nhấn vào C# góc phải màn hình có màu xanh lá cây -> add -> Form
 
 2.Thường dùng menustrip để mở form hoặc contextMenustrip
 

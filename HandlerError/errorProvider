@@ -1,0 +1,5 @@
+Toolbox: errorProvider : name = errorProvider
+tạo sự kiện thông qua button, .. dùng int.TryParse, double.TryParse
+phải xóa sự kiện errorProvider.Clear()
+                errorProvider.SetError(vị trí control, string message)
+                
