@@ -67,6 +67,8 @@ namespace Bai2_WinformCoBan_
             }
             return sum == n;
         }
+        
+        //Hàm xử lí sự kiện Leave của textbox
         private void txtSoNguyen_Leave(object sender, EventArgs e)
         {
             try
