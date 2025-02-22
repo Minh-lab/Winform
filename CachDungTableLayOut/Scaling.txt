@@ -1,6 +1,6 @@
 -tool box Layout Table
 
--dùng để chia thành các cột, hàng khi mà phóng ta hoặc thu nhỏ thì các hàng các cột đó cũng scaling theo
+-dùng để chia thành các cột, hàng khi mà phóng to hoặc thu nhỏ thì các hàng các cột đó cũng scaling theo
 
 -sẽ có khoảng cách giữa các cột, hàng -> dùng Margin = 0, 0, 0, 0 để xóa khoảng cách
 
