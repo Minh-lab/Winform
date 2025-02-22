@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Project\\BaiTapWinForm\\Bai3\\",
+  "WorkspaceRootPath": "D:\\Project\\BaiTapWinForm\\Winform\\Bai3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D864216E-EE48-475F-9DF4-8DC11C6A8D42}|Bai3\\Bai3.csproj|d:\\project\\baitapwinform\\bai3\\bai3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D864216E-EE48-475F-9DF4-8DC11C6A8D42}|Bai3\\Bai3.csproj|d:\\project\\baitapwinform\\winform\\bai3\\bai3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D864216E-EE48-475F-9DF4-8DC11C6A8D42}|Bai3\\Bai3.csproj|solutionrelative:bai3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 138,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,23 +30,23 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Project\\BaiTapWinForm\\Bai3\\Bai3\\Form1.cs",
+              "DocumentMoniker": "D:\\Project\\BaiTapWinForm\\Winform\\Bai3\\Bai3\\Form1.cs",
               "RelativeDocumentMoniker": "Bai3\\Form1.cs",
-              "ToolTip": "D:\\Project\\BaiTapWinForm\\Bai3\\Bai3\\Form1.cs [Design]",
+              "ToolTip": "D:\\Project\\BaiTapWinForm\\Winform\\Bai3\\Bai3\\Form1.cs [Design]",
               "RelativeToolTip": "Bai3\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T14:14:37.132Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         },
