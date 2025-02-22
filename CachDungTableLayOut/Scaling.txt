@@ -1,0 +1,11 @@
+-tool box Layout Table
+
+-dùng để chia thành các cột, hàng khi mà phóng ta hoặc thu nhỏ thì các hàng các cột đó cũng scaling theo
+
+-sẽ có khoảng cách giữa các cột, hàng -> dùng Margin = 0, 0, 0, 0 để xóa khoảng cách
+
+-Thuộc tính: Row Count(Số hàng) = , Rows : căn chỉnh size của các hàng
+             Column Count(Số hàng) = , Columns : căn chỉnh size của các cột
+
+
+
