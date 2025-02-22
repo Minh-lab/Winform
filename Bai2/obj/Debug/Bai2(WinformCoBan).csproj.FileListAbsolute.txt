@@ -1,0 +1,10 @@
+D:\Project\BaiTapWinForm\Bai2(WinformCoBan)\Bai2(WinformCoBan)\bin\Debug\Bai2(WinformCoBan).exe.config
+D:\Project\BaiTapWinForm\Bai2(WinformCoBan)\Bai2(WinformCoBan)\bin\Debug\Bai2(WinformCoBan).exe
+D:\Project\BaiTapWinForm\Bai2(WinformCoBan)\Bai2(WinformCoBan)\bin\Debug\Bai2(WinformCoBan).pdb
+D:\Project\BaiTapWinForm\Bai2(WinformCoBan)\Bai2(WinformCoBan)\obj\Debug\Bai2(WinformCoBan).csproj.AssemblyReference.cache
+D:\Project\BaiTapWinForm\Bai2(WinformCoBan)\Bai2(WinformCoBan)\obj\Debug\Bai2_WinformCoBan_.Form1.resources
+D:\Project\BaiTapWinForm\Bai2(WinformCoBan)\Bai2(WinformCoBan)\obj\Debug\Bai2_WinformCoBan_.Properties.Resources.resources
+D:\Project\BaiTapWinForm\Bai2(WinformCoBan)\Bai2(WinformCoBan)\obj\Debug\Bai2(WinformCoBan).csproj.GenerateResource.cache
+D:\Project\BaiTapWinForm\Bai2(WinformCoBan)\Bai2(WinformCoBan)\obj\Debug\Bai2(WinformCoBan).csproj.CoreCompileInputs.cache
+D:\Project\BaiTapWinForm\Bai2(WinformCoBan)\Bai2(WinformCoBan)\obj\Debug\Bai2(WinformCoBan).exe
+D:\Project\BaiTapWinForm\Bai2(WinformCoBan)\Bai2(WinformCoBan)\obj\Debug\Bai2(WinformCoBan).pdb
