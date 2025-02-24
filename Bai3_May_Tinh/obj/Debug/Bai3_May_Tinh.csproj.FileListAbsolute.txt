@@ -1,0 +1,10 @@
+D:\Project\BaiTapWinForm\Bai3_May_Tinh\Bai3_May_Tinh\bin\Debug\Bai3_May_Tinh.exe.config
+D:\Project\BaiTapWinForm\Bai3_May_Tinh\Bai3_May_Tinh\bin\Debug\Bai3_May_Tinh.exe
+D:\Project\BaiTapWinForm\Bai3_May_Tinh\Bai3_May_Tinh\bin\Debug\Bai3_May_Tinh.pdb
+D:\Project\BaiTapWinForm\Bai3_May_Tinh\Bai3_May_Tinh\obj\Debug\Bai3_May_Tinh.csproj.AssemblyReference.cache
+D:\Project\BaiTapWinForm\Bai3_May_Tinh\Bai3_May_Tinh\obj\Debug\Bai3_May_Tinh.Form1.resources
+D:\Project\BaiTapWinForm\Bai3_May_Tinh\Bai3_May_Tinh\obj\Debug\Bai3_May_Tinh.Properties.Resources.resources
+D:\Project\BaiTapWinForm\Bai3_May_Tinh\Bai3_May_Tinh\obj\Debug\Bai3_May_Tinh.csproj.GenerateResource.cache
+D:\Project\BaiTapWinForm\Bai3_May_Tinh\Bai3_May_Tinh\obj\Debug\Bai3_May_Tinh.csproj.CoreCompileInputs.cache
+D:\Project\BaiTapWinForm\Bai3_May_Tinh\Bai3_May_Tinh\obj\Debug\Bai3_May_Tinh.exe
+D:\Project\BaiTapWinForm\Bai3_May_Tinh\Bai3_May_Tinh\obj\Debug\Bai3_May_Tinh.pdb

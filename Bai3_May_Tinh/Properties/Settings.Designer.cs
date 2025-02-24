@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Bai3.Properties
+namespace Bai3_May_Tinh.Properties
 {
 
 
