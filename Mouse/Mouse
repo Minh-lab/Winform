@@ -1,0 +1,24 @@
+1. Mouse Hover: Xảy ra ngay khi chuột vào vùng điều khiển trong 1 khoảng thời gian ngắn
+
+2.MouseLeave: Xảy ra khi chuột rời khỏi vùng điều khiển.
+
+3.MouseEnter: xảy ra khi di chuột vào vùng control(chỉ thoát khi có MouseLeave)
+
+4.Thuộc tính Coler 
+
+5.Trong Cs, bạn có thể sử dụng sự kiện KeyDown để xử lý khi người dùng nhấn phím trên bàn phím.
+    private void Form1_KeyDown(object sender, KeyEventArgs e)
+    {
+        if (e.KeyCode == Keys.A) // Nếu nhấn phím "A"
+        {
+            MessageBox.Show("Bạn đã nhấn phím A!");
+        }
+        else if (e.KeyCode == Keys.Enter) // Nếu nhấn phím "Enter"
+        {
+            MessageBox.Show("Bạn đã nhấn phím Enter!");
+        }
+    }
+    Bạn cần chuyển đổi e.KeyCode(mang kiểu dữ liệu Keys) thành chuỗi trước khi so sánh với oldObject.Text:
+
+6.Sự kiện KeyDown không hoạt động trên Button theo mặc định
+➜ Button không nhận KeyDown trừ khi nó có focus.
