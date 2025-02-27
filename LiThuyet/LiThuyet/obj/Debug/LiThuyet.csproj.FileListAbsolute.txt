@@ -1,0 +1,10 @@
+D:\Winform\LiThuyet\LiThuyet\bin\Debug\LiThuyet.exe.config
+D:\Winform\LiThuyet\LiThuyet\bin\Debug\LiThuyet.exe
+D:\Winform\LiThuyet\LiThuyet\bin\Debug\LiThuyet.pdb
+D:\Winform\LiThuyet\LiThuyet\obj\Debug\LiThuyet.csproj.AssemblyReference.cache
+D:\Winform\LiThuyet\LiThuyet\obj\Debug\LiThuyet.Form1.resources
+D:\Winform\LiThuyet\LiThuyet\obj\Debug\LiThuyet.Properties.Resources.resources
+D:\Winform\LiThuyet\LiThuyet\obj\Debug\LiThuyet.csproj.GenerateResource.cache
+D:\Winform\LiThuyet\LiThuyet\obj\Debug\LiThuyet.csproj.CoreCompileInputs.cache
+D:\Winform\LiThuyet\LiThuyet\obj\Debug\LiThuyet.exe
+D:\Winform\LiThuyet\LiThuyet\obj\Debug\LiThuyet.pdb

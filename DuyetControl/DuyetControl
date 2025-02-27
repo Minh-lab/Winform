@@ -1,0 +1,29 @@
+Form1
+ ├── Panel1
+ │   ├── Button1
+ │   ├── Button2
+ │   ├── Panel2
+ │   │   ├── Button3
+ │   │   ├── Button4
+ │
+ ├── Button5
+ ├── Button6
+
+Panel1 chứa Button1, Button2 và Panel2.
+Panel2 (nằm trong Panel1) chứa Button3 và Button4.
+Form1 chứa Panel1, Button5, Button6.
+
+
+
+ 
+        public IEnumerable<Control> GetAllControls(Control parent)
+        {
+            foreach (Control c in parent.Controls)
+            {
+                yield return c;
+                if (c.HasChildren)
+                {
+                    foreach (Control c2 in GetAllControls(c)) { yield return c2; }
+                }
+            }
+        }

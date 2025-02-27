@@ -1,0 +1,15 @@
+Đối tượng ColorDialog cho phép mở menu Color
+thường dùng với ContextMenuStrip
+    * muốn lấy control đang chỏ vào -> ContextMenuStrip.SourceControl
+
+cách thay đổi Color của 1 Control cụ thể thông qua ContextMenuStrip
+
+    Control currentControl = ContextMenuStrip.SourceControl;
+    if(currentControl != Null){
+        using(ColorDialog colorDialog = new ColorDialog())
+        if(colorDialog.ShowDialog == DiaLogResult.Oke)
+        {
+            currentControl.BackColor = colorDialog.Color;
+        }
+    }
+tương tự với font
