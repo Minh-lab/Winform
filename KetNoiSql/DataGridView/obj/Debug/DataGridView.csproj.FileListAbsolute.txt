@@ -1,0 +1,10 @@
+D:\QuanLiSinhVien\DataGridView\DataGridView\bin\Debug\DataGridView.exe.config
+D:\QuanLiSinhVien\DataGridView\DataGridView\bin\Debug\DataGridView.exe
+D:\QuanLiSinhVien\DataGridView\DataGridView\bin\Debug\DataGridView.pdb
+D:\QuanLiSinhVien\DataGridView\DataGridView\obj\Debug\DataGridView.csproj.AssemblyReference.cache
+D:\QuanLiSinhVien\DataGridView\DataGridView\obj\Debug\DataGridView.Form1.resources
+D:\QuanLiSinhVien\DataGridView\DataGridView\obj\Debug\DataGridView.Properties.Resources.resources
+D:\QuanLiSinhVien\DataGridView\DataGridView\obj\Debug\DataGridView.csproj.GenerateResource.cache
+D:\QuanLiSinhVien\DataGridView\DataGridView\obj\Debug\DataGridView.csproj.CoreCompileInputs.cache
+D:\QuanLiSinhVien\DataGridView\DataGridView\obj\Debug\DataGridView.exe
+D:\QuanLiSinhVien\DataGridView\DataGridView\obj\Debug\DataGridView.pdb
