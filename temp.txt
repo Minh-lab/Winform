@@ -1,0 +1,6 @@
+anchor: khoảng cách so với 4 lề 
+left: luôn cách 1 khoảng cố định khi thay đổi size from left
+top: luôn cách 1 khoảng cố định khi thay đổi size from left
+right: luôn cách 1 khoảng cố định khi thay đổi size from left
+bottom: luôn cách 1 khoảng cố định khi thay đổi size from left
+

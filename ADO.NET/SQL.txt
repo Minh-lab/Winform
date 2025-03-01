@@ -1,0 +1,49 @@
+Các đối tượng cần dùng
+    SqlConnection: Kết nối dữ liệu
+    SqlCommand: Thực hiện các câu lệnh sql, nhận 2 tham chiếu (string, SqlConnection)
+        thực hiện câu lệnh: select,delete, insert 
+    SqlDataAdapter: truy vấn dữ liệu, nhận 2 tham chiếu (string, SqlConnection)
+        thực hiện câu lệnh: select
+    SqlDataReader: đọc dữ liệu
+    DataTable: Chứa dữ liệu được truy vấn ra
+        chứa dữ liệu lưu trong RAM, thường được fill bới SqlDataAdapter
+
+lưu ý để các cột full size: -> trong datagridview tìm thuộc tính AutoSizeColumnsMode = fill 
+*Lưu ý: Bất cứ khi nào tương tác với SQL thì đều phải  mở một kết nối (SqlConnection) rồi open
+xong hết rồi -> close
+
+ví dụ chèn
+    using(SqlConnection conn .. ){
+        conn.Open();
+        string cmd = "insert into table values ....";
+        SqlCommand command = new SqlCommand(cmd,conn );
+        command.ExecuteNonQuery();
+    }
+
+//ví dụ vận dụng kết hợp giữa command và adapter -> hỗ trợ fill | command -> ko hỗ trợ fill
+private DataTable GetSinhVien(string maSV)
+{
+    DataTable dtSinhVien = new DataTable();
+    string query = "SELECT * FROM ThongTin WHERE id = @id";
+
+    using (SqlConnection conn = new SqlConnection(chuoiketnoi))
+    {
+        conn.Open();
+        using (SqlCommand cmd = new SqlCommand(query, conn))
+        {
+            cmd.Parameters.AddWithValue("@id", maSV);  // ✅ Thêm tham số an toàn
+
+            using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
+            {
+                adapter.Fill(dtSinhVien);
+            }
+        }
+    }
+    return dtSinhVien;
+}
+
+chú ý
+để hiện tên cột đúng phải đặt thuộc tính DataPropertyName = cột trong table SQL
+
+string chuoiketnoi = "DataSource = ....; " + " Initial Catalog=QLSV; " + " Integrated Security=True";
+SqlConnection conn = null;
