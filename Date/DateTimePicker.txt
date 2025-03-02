@@ -1,0 +1,5 @@
+Phương thức AddDays của DateTimePicker: cộng ngày
+tên dtp.Value.AddDays(số ngày cộng);
+DateTimePicker mặc định là mm/dd/yyyy | muốn đổi sang dd/mm/yyyy -> đổi thuộc tính format = custom
+SelectedIndexChanged -> sự kiện khi thay đổi tab control
+dùng cell Click hiên thị dữ liệu lên từng control tương úng | chú ý Cells["name" -> name của cột]

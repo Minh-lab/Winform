@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.ProgressBar;
 
 namespace QLSV
 {
@@ -56,14 +57,14 @@ namespace QLSV
                 errorProvider1.SetError(cmbquequan, "Không được để trống!");
                 check = false;
             }
-            if (cmblop.Text == "")
-            {
-                errorProvider1.SetError(cmblop, "Không được để trống!");
-                check = false;
-            }
             if (cmbkhoa.Text == "")
             {
                 errorProvider1.SetError(cmbkhoa, "Không được để trống!");
+                check = false;
+            }
+            if (cmblop.Text == "")
+            {
+                errorProvider1.SetError(cmblop, "Không được để trống!");
                 check = false;
             }
 
@@ -184,23 +185,72 @@ namespace QLSV
 
         private void btnsua_Click(object sender, EventArgs e)
         {
-            string query = "update SINHVIEN set hoten = @hoten, ngaysinh = @ngaysinh, quequan = @quequan, gioitinh = @gioitinh, khoa = @khoa, lop = @lop where msv = @msv";
-            using (conn = new SqlConnection(chuoiketnoi))
+            try
             {
-                conn.Open();
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@msv", txtmsv.Text);
-                cmd.Parameters.AddWithValue("@hoten", txthoten.Text);
-                cmd.Parameters.AddWithValue("@ngaysinh", DateTime.Parse(dtpngaysinh.Text));
-                if (rdnam.Checked)
-                    cmd.Parameters.AddWithValue("@gioitinh", rdnam.Text);
-                else if (rdnu.Checked)
-                    cmd.Parameters.AddWithValue("@gioitinh", rdnu.Text);
-                cmd.Parameters.AddWithValue("@quequan", cmbquequan.Text);
-                cmd.Parameters.AddWithValue("@lop", cmblop.Text);
-                cmd.Parameters.AddWithValue("@khoa", cmbkhoa.Text);
-                cmd.ExecuteNonQuery();
-                dssv.DataSource = GetDataTable();
+                string query = "update SINHVIEN set hoten = @hoten, ngaysinh = @ngaysinh, quequan = @quequan, gioitinh = @gioitinh, khoa = @khoa, lop = @lop where msv = @msv";
+                using (conn = new SqlConnection(chuoiketnoi))
+                {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand(query, conn);
+                    cmd.Parameters.AddWithValue("@msv", txtmsv.Text);
+                    cmd.Parameters.AddWithValue("@hoten", txthoten.Text);
+                    cmd.Parameters.AddWithValue("@ngaysinh", DateTime.Parse(dtpngaysinh.Text));
+                    if (rdnam.Checked)
+                        cmd.Parameters.AddWithValue("@gioitinh", rdnam.Text);
+                    else if (rdnu.Checked)
+                        cmd.Parameters.AddWithValue("@gioitinh", rdnu.Text);
+                    cmd.Parameters.AddWithValue("@quequan", cmbquequan.Text);
+                    cmd.Parameters.AddWithValue("@lop", cmblop.Text);
+                    cmd.Parameters.AddWithValue("@khoa", cmbkhoa.Text);
+                    cmd.ExecuteNonQuery();
+                    dssv.DataSource = GetDataTable();
+                }
+            }
+            catch (Exception ex) {
+                MessageBox.Show("Danh sách trống", "Error");
+            }
+        }
+
+        private void txtmsv_TextChanged(object sender, EventArgs e)
+        {
+            //if (txtmsv.Text == "")
+            //    errorProvider1.SetError(txtmsv, "Không được để trống");
+            //else errorProvider1.SetError(txtmsv, "");
+            TextBox temp = (TextBox)sender;
+            if(temp.Text == "")
+                errorProvider1.SetError(temp, "Không được để trống");
+            else
+            {
+                errorProvider1.SetError(temp, "");
+            }
+
+        }
+
+        private void cmbquequan_TextChanged(object sender, EventArgs e)
+        {
+            ComboBox a = (ComboBox)sender;
+            if (a.Text == "")
+                errorProvider1.SetError(a, "Không được để trống");
+            else
+            {
+                errorProvider1.SetError(a, "");
+            }
+        }
+
+        private void rdnam_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!(rdnam.Checked == false && rdnu.Checked == false))
+            {
+                if (rdnam.Checked == true) {
+                    
+                    errorProvider1.SetError(rdnu, "");
+                    errorProvider1.SetError(rdnam, "");
+                }
+                else
+                {
+                    errorProvider1.SetError(rdnu, "");
+                    errorProvider1.SetError(rdnam, "");
+                }
             }
         }
     }

@@ -1,0 +1,10 @@
+D:\Winform\DanhSachGiangVien\DanhSachGiangVien\bin\Debug\DanhSachGiangVien.exe.config
+D:\Winform\DanhSachGiangVien\DanhSachGiangVien\bin\Debug\DanhSachGiangVien.exe
+D:\Winform\DanhSachGiangVien\DanhSachGiangVien\bin\Debug\DanhSachGiangVien.pdb
+D:\Winform\DanhSachGiangVien\DanhSachGiangVien\obj\Debug\DanhSachGiangVien.csproj.AssemblyReference.cache
+D:\Winform\DanhSachGiangVien\DanhSachGiangVien\obj\Debug\DanhSachGiangVien.Form1.resources
+D:\Winform\DanhSachGiangVien\DanhSachGiangVien\obj\Debug\DanhSachGiangVien.Properties.Resources.resources
+D:\Winform\DanhSachGiangVien\DanhSachGiangVien\obj\Debug\DanhSachGiangVien.csproj.GenerateResource.cache
+D:\Winform\DanhSachGiangVien\DanhSachGiangVien\obj\Debug\DanhSachGiangVien.csproj.CoreCompileInputs.cache
+D:\Winform\DanhSachGiangVien\DanhSachGiangVien\obj\Debug\DanhSachGiangVien.exe
+D:\Winform\DanhSachGiangVien\DanhSachGiangVien\obj\Debug\DanhSachGiangVien.pdb
