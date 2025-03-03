@@ -49,7 +49,7 @@ namespace QuanLiThuVien
             }
             catch (SqlException)
             {
-                MessageBox.Show("Đã có trong danh sách", "Error");
+                MessageBox.Show("Mã sách đã có trong danh sách!", "Error");
             }
         }
 
@@ -58,7 +58,6 @@ namespace QuanLiThuVien
             conn = new SqlConnection(chuoiketnoi);
             conn.Open();
             dssach.DataSource = GetAllSach();
-
         }
 
         DataTable GetAllSach()
@@ -87,7 +86,6 @@ namespace QuanLiThuVien
             }
             return dt;
         }
-
         List<string> getName()
         {
             List<string> name = new List<string>();
@@ -148,7 +146,7 @@ namespace QuanLiThuVien
             }
             catch (SqlException)
             {
-                MessageBox.Show("Error", "Đã có trong ds");
+                MessageBox.Show("Error", "Mã sách đã có trong danh sách");
             }
         }
 
@@ -214,7 +212,8 @@ namespace QuanLiThuVien
                         sqlCommand.Parameters.AddWithValue("@tensach", cmbtensach.Text);
                         sqlCommand.Parameters.AddWithValue("@tensv", cmbtensv.Text);
                         sqlCommand.ExecuteNonQuery();
-                        lblsongaymuon.Text = (dtpngaytra.Value - dtpngaymuon.Value).Days.ToString();
+                        lblsongaymuon.Text = (DateTime.Now - dtpngaymuon.Value).Days.ToString();
+                        dtpngaytra.Value = (DateTime.Now);
                         int date = int.Parse(lblsongaymuon.Text);
                         if (date > 40)
                         {
@@ -298,6 +297,15 @@ namespace QuanLiThuVien
             txtmasach.Text = "";
             txttensach.Text = "";
 
+        }
+
+        private void txtmasach_TextChanged(object sender, EventArgs e)
+        {
+            TextBox temp = (TextBox)sender;
+            if(temp.Text == "")
+                errorProvider1.SetError(temp, "Không được để trống");
+            else
+                errorProvider1.SetError(temp, "");
         }
 
         private void dtpngaymuon_ValueChanged(object sender, EventArgs e)
