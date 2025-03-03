@@ -2,9 +2,12 @@ D:\Winform\QuanLiThuVien\QuanLiThuVien\bin\Debug\QuanLiThuVien.exe.config
 D:\Winform\QuanLiThuVien\QuanLiThuVien\bin\Debug\QuanLiThuVien.exe
 D:\Winform\QuanLiThuVien\QuanLiThuVien\bin\Debug\QuanLiThuVien.pdb
 D:\Winform\QuanLiThuVien\QuanLiThuVien\obj\Debug\QuanLiThuVien.csproj.AssemblyReference.cache
-D:\Winform\QuanLiThuVien\QuanLiThuVien\obj\Debug\QuanLiThuVien.Form1.resources
 D:\Winform\QuanLiThuVien\QuanLiThuVien\obj\Debug\QuanLiThuVien.Properties.Resources.resources
 D:\Winform\QuanLiThuVien\QuanLiThuVien\obj\Debug\QuanLiThuVien.csproj.GenerateResource.cache
 D:\Winform\QuanLiThuVien\QuanLiThuVien\obj\Debug\QuanLiThuVien.csproj.CoreCompileInputs.cache
 D:\Winform\QuanLiThuVien\QuanLiThuVien\obj\Debug\QuanLiThuVien.exe
 D:\Winform\QuanLiThuVien\QuanLiThuVien\obj\Debug\QuanLiThuVien.pdb
+D:\Winform\QuanLiThuVien\QuanLiThuVien\obj\Debug\QuanLiThuVien.Form1.resources
+D:\Winform\QuanLiThuVien\QuanLiThuVien\bin\Debug\Newtonsoft.Json.dll
+D:\Winform\QuanLiThuVien\QuanLiThuVien\bin\Debug\Newtonsoft.Json.xml
+D:\Winform\QuanLiThuVien\QuanLiThuVien\obj\Debug\QuanLiTh.77037F53.Up2Date
