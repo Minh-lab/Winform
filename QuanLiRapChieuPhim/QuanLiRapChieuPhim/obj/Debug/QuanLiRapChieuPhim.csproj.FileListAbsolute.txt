@@ -1,0 +1,10 @@
+D:\Winform\QuanLiRapChieuPhim\QuanLiRapChieuPhim\bin\Debug\QuanLiRapChieuPhim.exe.config
+D:\Winform\QuanLiRapChieuPhim\QuanLiRapChieuPhim\bin\Debug\QuanLiRapChieuPhim.exe
+D:\Winform\QuanLiRapChieuPhim\QuanLiRapChieuPhim\bin\Debug\QuanLiRapChieuPhim.pdb
+D:\Winform\QuanLiRapChieuPhim\QuanLiRapChieuPhim\obj\Debug\QuanLiRapChieuPhim.csproj.AssemblyReference.cache
+D:\Winform\QuanLiRapChieuPhim\QuanLiRapChieuPhim\obj\Debug\QuanLiRapChieuPhim.Form1.resources
+D:\Winform\QuanLiRapChieuPhim\QuanLiRapChieuPhim\obj\Debug\QuanLiRapChieuPhim.Properties.Resources.resources
+D:\Winform\QuanLiRapChieuPhim\QuanLiRapChieuPhim\obj\Debug\QuanLiRapChieuPhim.csproj.GenerateResource.cache
+D:\Winform\QuanLiRapChieuPhim\QuanLiRapChieuPhim\obj\Debug\QuanLiRapChieuPhim.csproj.CoreCompileInputs.cache
+D:\Winform\QuanLiRapChieuPhim\QuanLiRapChieuPhim\obj\Debug\QuanLiRapChieuPhim.exe
+D:\Winform\QuanLiRapChieuPhim\QuanLiRapChieuPhim\obj\Debug\QuanLiRapChieuPhim.pdb

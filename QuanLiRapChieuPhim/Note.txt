@@ -1,0 +1,5 @@
+Chú ý tạo đối tượng trong c#  cần phải có contructer ở phía đuôi bao giờ cũng có ();
+nếu ko thì báo lỗi instance object
+ví dụ 
+
+public Dictionary<Button, Color> buttonColor = new Dictionary<Button, Color>(); // contructer
