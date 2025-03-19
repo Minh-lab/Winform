@@ -1,0 +1,10 @@
+D:\Winform\LuyenTapGiuaKi\LuyenTapGiuaKi\bin\Debug\LuyenTapGiuaKi.exe.config
+D:\Winform\LuyenTapGiuaKi\LuyenTapGiuaKi\bin\Debug\LuyenTapGiuaKi.exe
+D:\Winform\LuyenTapGiuaKi\LuyenTapGiuaKi\bin\Debug\LuyenTapGiuaKi.pdb
+D:\Winform\LuyenTapGiuaKi\LuyenTapGiuaKi\obj\Debug\LuyenTapGiuaKi.csproj.AssemblyReference.cache
+D:\Winform\LuyenTapGiuaKi\LuyenTapGiuaKi\obj\Debug\LuyenTapGiuaKi.Form1.resources
+D:\Winform\LuyenTapGiuaKi\LuyenTapGiuaKi\obj\Debug\LuyenTapGiuaKi.Properties.Resources.resources
+D:\Winform\LuyenTapGiuaKi\LuyenTapGiuaKi\obj\Debug\LuyenTapGiuaKi.csproj.GenerateResource.cache
+D:\Winform\LuyenTapGiuaKi\LuyenTapGiuaKi\obj\Debug\LuyenTapGiuaKi.csproj.CoreCompileInputs.cache
+D:\Winform\LuyenTapGiuaKi\LuyenTapGiuaKi\obj\Debug\LuyenTapGiuaKi.exe
+D:\Winform\LuyenTapGiuaKi\LuyenTapGiuaKi\obj\Debug\LuyenTapGiuaKi.pdb

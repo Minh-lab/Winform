@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -50,6 +50,12 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
             this.dsmuontra = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.namebook = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.datemuon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.datetra = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
@@ -76,19 +82,13 @@
             this.button5 = new System.Windows.Forms.Button();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
             this.dsoutdate = new System.Windows.Forms.DataGridView();
-            this.dscount = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.namebook = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.datemuon = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.datetra = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tensv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ngaymuon = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ngaytra = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.songaymuon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dscount = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -185,7 +185,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 179F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 127F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 121F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 199F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 201F));
             this.tableLayoutPanel3.Controls.Add(this.label2, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.txttensach, 2, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnthem, 4, 0);
@@ -203,7 +203,7 @@
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Location = new System.Drawing.Point(46, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 42);
+            this.label2.Size = new System.Drawing.Size(91, 42);
             this.label2.TabIndex = 0;
             this.label2.Text = "Tên sách";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -211,7 +211,7 @@
             // txttensach
             // 
             this.txttensach.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txttensach.Location = new System.Drawing.Point(145, 6);
+            this.txttensach.Location = new System.Drawing.Point(143, 6);
             this.txttensach.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.txttensach.Name = "txttensach";
             this.txttensach.Size = new System.Drawing.Size(233, 26);
@@ -221,7 +221,7 @@
             // btnthem
             // 
             this.btnthem.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnthem.Location = new System.Drawing.Point(563, 3);
+            this.btnthem.Location = new System.Drawing.Point(561, 3);
             this.btnthem.Name = "btnthem";
             this.btnthem.Size = new System.Drawing.Size(121, 36);
             this.btnthem.TabIndex = 2;
@@ -232,7 +232,7 @@
             // btnresetsach
             // 
             this.btnresetsach.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnresetsach.Location = new System.Drawing.Point(690, 3);
+            this.btnresetsach.Location = new System.Drawing.Point(688, 3);
             this.btnresetsach.Name = "btnresetsach";
             this.btnresetsach.Size = new System.Drawing.Size(115, 36);
             this.btnresetsach.TabIndex = 3;
@@ -247,7 +247,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 69.46107F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 240F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 219F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 407F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 409F));
             this.tableLayoutPanel2.Controls.Add(this.label1, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.txtmasach, 2, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 20);
@@ -262,9 +262,9 @@
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Location = new System.Drawing.Point(46, 0);
+            this.label1.Location = new System.Drawing.Point(45, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 40);
+            this.label1.Size = new System.Drawing.Size(91, 40);
             this.label1.TabIndex = 0;
             this.label1.Text = "Mã sách";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -272,7 +272,7 @@
             // txtmasach
             // 
             this.txtmasach.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtmasach.Location = new System.Drawing.Point(144, 6);
+            this.txtmasach.Location = new System.Drawing.Point(142, 6);
             this.txtmasach.Margin = new System.Windows.Forms.Padding(3, 6, 3, 3);
             this.txtmasach.Name = "txtmasach";
             this.txtmasach.Size = new System.Drawing.Size(234, 26);
@@ -349,14 +349,14 @@
             this.dsmuontra.AllowUserToResizeColumns = false;
             this.dsmuontra.AllowUserToResizeRows = false;
             this.dsmuontra.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dsmuontra.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dsmuontra.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dsmuontra.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dsmuontra.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
@@ -375,6 +375,50 @@
             this.dsmuontra.TabIndex = 3;
             this.dsmuontra.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dsmuontra_CellContentClick);
             // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "stt";
+            this.dataGridViewTextBoxColumn3.HeaderText = "STT";
+            this.dataGridViewTextBoxColumn3.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
+            // 
+            // name
+            // 
+            this.name.DataPropertyName = "hoten";
+            this.name.HeaderText = "Họ tên sinh viên";
+            this.name.MinimumWidth = 8;
+            this.name.Name = "name";
+            this.name.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
+            // 
+            // namebook
+            // 
+            this.namebook.DataPropertyName = "tensach";
+            this.namebook.HeaderText = "Tên sách";
+            this.namebook.MinimumWidth = 8;
+            this.namebook.Name = "namebook";
+            // 
+            // datemuon
+            // 
+            this.datemuon.DataPropertyName = "ngaymuon";
+            this.datemuon.HeaderText = "Ngày mượn";
+            this.datemuon.MinimumWidth = 8;
+            this.datemuon.Name = "datemuon";
+            // 
+            // datetra
+            // 
+            this.datetra.DataPropertyName = "ngaytra";
+            this.datetra.HeaderText = "Ngày trả";
+            this.datetra.MinimumWidth = 8;
+            this.datetra.Name = "datetra";
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "thanhtien";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Thành tiền";
+            this.dataGridViewTextBoxColumn8.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.tableLayoutPanel4);
@@ -385,12 +429,13 @@
             // 
             // tableLayoutPanel4
             // 
+            this.tableLayoutPanel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel4.ColumnCount = 1;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel6, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel7, 0, 2);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 3;
@@ -402,6 +447,8 @@
             // 
             // tableLayoutPanel6
             // 
+            this.tableLayoutPanel6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel6.ColumnCount = 8;
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 107F));
@@ -416,7 +463,6 @@
             this.tableLayoutPanel6.Controls.Add(this.cmbtensach, 2, 0);
             this.tableLayoutPanel6.Controls.Add(this.dtpngaytra, 5, 0);
             this.tableLayoutPanel6.Controls.Add(this.btnTraSach, 6, 0);
-            this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 56);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 1;
@@ -475,6 +521,8 @@
             // 
             // tableLayoutPanel5
             // 
+            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel5.ColumnCount = 8;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 108F));
@@ -489,7 +537,6 @@
             this.tableLayoutPanel5.Controls.Add(this.dtpngaymuon, 5, 0);
             this.tableLayoutPanel5.Controls.Add(this.btnmuonsach, 6, 0);
             this.tableLayoutPanel5.Controls.Add(this.cmbtensv, 2, 0);
-            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 10);
             this.tableLayoutPanel5.Margin = new System.Windows.Forms.Padding(3, 10, 3, 3);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
@@ -636,8 +683,8 @@
             this.tableLayoutPanel8.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.tableLayoutPanel8.RowCount = 1;
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 67F));
-            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 112F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 112F));
             this.tableLayoutPanel8.Size = new System.Drawing.Size(1014, 112);
             this.tableLayoutPanel8.TabIndex = 0;
             // 
@@ -715,79 +762,6 @@
             this.dsoutdate.Size = new System.Drawing.Size(260, 276);
             this.dsoutdate.TabIndex = 0;
             // 
-            // dscount
-            // 
-            this.dscount.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dscount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dscount.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2});
-            this.dscount.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dscount.Location = new System.Drawing.Point(0, 0);
-            this.dscount.Name = "dscount";
-            this.dscount.RowHeadersWidth = 62;
-            this.dscount.RowTemplate.Height = 28;
-            this.dscount.Size = new System.Drawing.Size(750, 276);
-            this.dscount.TabIndex = 1;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "tensach";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Tên sách";
-            this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "solanmuon";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Số lần mượn";
-            this.dataGridViewTextBoxColumn2.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "stt";
-            this.dataGridViewTextBoxColumn3.HeaderText = "STT";
-            this.dataGridViewTextBoxColumn3.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
-            // 
-            // name
-            // 
-            this.name.DataPropertyName = "hoten";
-            this.name.HeaderText = "Họ tên sinh viên";
-            this.name.MinimumWidth = 8;
-            this.name.Name = "name";
-            this.name.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Programmatic;
-            // 
-            // namebook
-            // 
-            this.namebook.DataPropertyName = "tensach";
-            this.namebook.HeaderText = "Tên sách";
-            this.namebook.MinimumWidth = 8;
-            this.namebook.Name = "namebook";
-            // 
-            // datemuon
-            // 
-            this.datemuon.DataPropertyName = "ngaymuon";
-            this.datemuon.HeaderText = "Ngày mượn";
-            this.datemuon.MinimumWidth = 8;
-            this.datemuon.Name = "datemuon";
-            // 
-            // datetra
-            // 
-            this.datetra.DataPropertyName = "ngaytra";
-            this.datetra.HeaderText = "Ngày trả";
-            this.datetra.MinimumWidth = 8;
-            this.datetra.Name = "datetra";
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "thanhtien";
-            this.dataGridViewTextBoxColumn8.HeaderText = "Thành tiền";
-            this.dataGridViewTextBoxColumn8.MinimumWidth = 8;
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            // 
             // tensv
             // 
             this.tensv.DataPropertyName = "hoten";
@@ -815,6 +789,35 @@
             this.songaymuon.HeaderText = "Số ngày mượn";
             this.songaymuon.MinimumWidth = 8;
             this.songaymuon.Name = "songaymuon";
+            // 
+            // dscount
+            // 
+            this.dscount.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dscount.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dscount.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn2});
+            this.dscount.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dscount.Location = new System.Drawing.Point(0, 0);
+            this.dscount.Name = "dscount";
+            this.dscount.RowHeadersWidth = 62;
+            this.dscount.RowTemplate.Height = 28;
+            this.dscount.Size = new System.Drawing.Size(750, 276);
+            this.dscount.TabIndex = 1;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "tensach";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Tên sách";
+            this.dataGridViewTextBoxColumn1.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "solan";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Số lần mượn";
+            this.dataGridViewTextBoxColumn2.MinimumWidth = 8;
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // Form1
             // 
@@ -877,8 +880,6 @@
         private System.Windows.Forms.SplitContainer splitContainer4;
         private System.Windows.Forms.DataGridView dsoutdate;
         private System.Windows.Forms.DataGridView dscount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label1;
@@ -922,6 +923,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ngaymuon;
         private System.Windows.Forms.DataGridViewTextBoxColumn ngaytra;
         private System.Windows.Forms.DataGridViewTextBoxColumn songaymuon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
     }
 }
 

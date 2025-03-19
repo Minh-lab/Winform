@@ -22,3 +22,26 @@ git remote set-url origin git@github.com:username/repository.git(SSH)
 git remote add origin https://github.com/username/repository.git  # Dùng HTTPS
 git remote add origin git@github.com:username/repository.git      # Dùng SSH
 
+chú ý C# win from ko nên push
+# Bỏ qua thư mục chứa file build
+bin/
+obj/
+.vs/
+
+# Bỏ qua file thực thi và file debug
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Bỏ qua file cấu hình người dùng
+*.user
+*.suo
+*.csproj.user
+1️⃣ Mỗi người tạo nhánh riêng khi làm việc (git checkout -b feature-name)
+2️⃣ Commit & push lên GitHub (git commit -m "message" → git push origin feature-name)
+3️⃣ Tạo Pull Request (PR) để merge vào master/main
+4️⃣ Review code → Nếu ổn, merge vào master
+5️⃣ Mọi người pull code mới nhất từ master
+
+

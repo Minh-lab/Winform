@@ -1,0 +1,7 @@
+dùng một chuỗi string để thao tác trung gian
+
+string json = System.IO.File.ReadAllText(@"D:\Winform\QuanLiThuVien\stt.json"); | đọc file
+                                           file path
+stt = JsonConvert.DeserializeObject<int>(json);| Chuyển đổi lại kiểu
+
+System.IO.File.WriteAllText(@"D:\Winform\QuanLiThuVien\stt.json", sttstring);| Ghi lại vào trong file

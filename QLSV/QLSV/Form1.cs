@@ -23,12 +23,18 @@ namespace QLSV
                              " Initial Catalog=SVB7; " +
                              " Integrated Security=True";
         SqlConnection conn = null;
+
+        public Dictionary<string, List<string>> dskhoa = new Dictionary<string, List<string>>();
+
         private void Form1_Load(object sender, EventArgs e)
         {
             conn = new SqlConnection(chuoiketnoi);
             conn.Open();
             dssv.DataSource = GetDataTable();
-
+            dskhoa["KT1"] = new List<string> { "65KT1" };
+            dskhoa["CNTT"] = new List<string> { "65KTPM" };
+            cmbkhoa.DataSource = new List<string>(dskhoa.Keys);
+            cmblop.DataSource = dskhoa[cmbkhoa.Text];
         }
 
         private void btnthem_Click(object sender, EventArgs e)
@@ -252,6 +258,13 @@ namespace QLSV
                     errorProvider1.SetError(rdnam, "");
                 }
             }
+        }
+
+        private void cmbkhoa_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            dskhoa["KT1"] = new List<string> { "65KT1" };
+            dskhoa["CNTT"] = new List<string>{"65KTPM"};
+            cmblop.DataSource = dskhoa[cmbkhoa.Text];
         }
     }
 }

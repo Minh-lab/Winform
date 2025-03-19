@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,24 @@ namespace LOP
 {
     public partial class Form1 : Form
     {
+        public string chuoiketnoi = "Data Source = DESKTOP-DOFGP4J;" +
+                                        " Initial Catalog =  quanlisinhvien;" +
+                                            "Integrated Security = true;  ";
+        public SqlConnection conn = null;
+
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void tableLayoutPanel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnthem_Click(object sender, EventArgs e)
+        {
+            string query = "insert into "
         }
     }
 }

@@ -22,3 +22,47 @@
 
 6.Sự kiện KeyDown không hoạt động trên Button theo mặc định
 ➜ Button không nhận KeyDown trừ khi nó có focus.
+
+7   Duyệt 📌 
+    Trường hợp có GroupBox hoặc Panel
+    Mặc định, this.Controls chỉ chứa các control trực tiếp thuộc Form1.
+    Nếu các Button nằm trong Panel hoặc GroupBox, bạn cần duyệt sâu hơn bằng đệ quy.
+
+    ✅ Cách duyệt toàn bộ Button kể cả trong Panel/GroupBox
+    csharp
+    Sao chép
+    Chỉnh sửa
+    void ProcessAllButtons(Control parent)
+    {
+        foreach (Control ctrl in parent.Controls)
+        {
+            if (ctrl is Button btn)
+            {
+                btn.Click += Button_Click; // Gán sự kiện Click
+            }
+            else
+            {
+                ProcessAllButtons(ctrl); // Nếu là container, tiếp tục duyệt
+            }
+        }
+    }
+
+    // Gọi hàm trong Form1_Load
+    private void Form1_Load(object sender, EventArgs e)
+    {
+        ProcessAllButtons(this);
+    }
+
+Ví dụ: Tìm tất cả Button trong Form
+Nếu bạn chỉ muốn làm việc với các Button, bạn cần kiểm tra kiểu của ctrl:
+
+csharp
+Sao chép
+Chỉnh sửa
+foreach (Control ctrl in this.Controls)
+{
+    if (ctrl is Button btn)
+    {
+        btn.BackColor = Color.LightBlue; // Đổi màu tất cả các Button
+    }
+}

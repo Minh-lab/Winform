@@ -296,7 +296,7 @@ namespace QuanLiThuVien
         DataTable GetCountBook()
         {
             DataTable dt = new DataTable();
-            string query = "select sach.tensach,count(idsach) from muonsach,sach where muonsach.idsach = sach.masach group by muonsach.idsach, tensach;";
+            string query = "select sach.tensach,count(idsach) as solan from muonsach,sach where muonsach.idsach = sach.masach group by muonsach.idsach, tensach;";
             using (conn = new SqlConnection(chuoiketnoi))
             {
                 conn.Open();

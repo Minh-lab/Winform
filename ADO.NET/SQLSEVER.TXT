@@ -1,0 +1,63 @@
+CREATE DATABLE ...
+CREATE TABLE(
+    NAME VARCHAR(SIZE) PRIMARY KEY,
+    ....
+
+)
+
+// THAY ĐỔI BẢNG
+
+1. ADD – To add a new column to the table
+The ADD clause is used to add a new column to an existing table. You must specify the name of the new column and its data type.
+
+Query:
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+
+SQL ALTER TABLE
+Last Updated : 30 Jan, 2025
+The SQL ALTER TABLE statement is a powerful tool that allows you to modify the structure of an existing table in a database. Whether you’re adding new columns, modifying existing ones, deleting columns, or renaming them, the ALTER TABLE statement enables you to make changes without losing the data stored in the table.
+
+In this article will learn about the ALTER TABLE statement with examples to demonstrate how it works.
+
+SQL ALTER TABLE STATEMENT
+The ALTER TABLE statement in SQL is used to modify an existing table structure in a database without losing any data. It allows you to add, remove, or modify columns, change data types, or apply constraints to improve data integrity and ensure that the table meets evolving business requirements. It allows for structural changes like adding new columns, modifying existing ones, deleting columns, and renaming columns within a table. To alter/modify the table use the ALTER TABLE syntax:
+
+Syntax:
+
+
+ALTER TABLE table_name
+[ADD | DROP | MODIFY] column_name datatype;
+
+
+Key Terms
+
+table_name refers to the name of the table you want to modify.
+ADD is used to add a new column.
+DROP is used to remove an existing column.
+MODIFY is used to change the datatype or definition of an existing column.
+Common Use Cases for SQL ALTER TABLE
+1. ADD – To add a new column to the table
+The ADD clause is used to add a new column to an existing table. You must specify the name of the new column and its data type.
+
+Query:
+
+ALTER TABLE table_name
+ADD column_name datatype;
+2. MODIFY/ALTER – To change the data type of an existing column
+The MODIFY (or ALTER COLUMN in some databases like SQL Server) clause is used to modify the definition of an existing column, such as changing its data type or size.
+
+Query:
+
+ALTER TABLE table_name
+MODIFY COLUMN column_name datatype;
+
+3. DROP – To delete an existing column from the table
+The DROP clause allows you to remove a column from a table. Be cautious when using this command as it will permanently remove the column and its data.
+
+Query:
+
+ALTER TABLE table_name
+DROP COLUMN column_name;

@@ -19,7 +19,7 @@ namespace Bai4
         }
 
 
-        public Color oldColer, oldColorKeyboard;
+        public Color oldColer;
         private void button31_MouseEnter(object sender, EventArgs e)
         {
 
